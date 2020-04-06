@@ -17,7 +17,7 @@
     font-family: allan;
     font-style: normal;
     font-weight: 700;
-    color: #DA0E15;
+    color: #FFFFFF;
 }
 .middle-box {
     text-align: center;
@@ -40,4 +40,21 @@
 
 .bagj {
 	background-color: #;
+	
+}
+
+.jumbotron {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lead {
+    color: #FFFFFF;
 }
