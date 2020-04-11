@@ -17,7 +17,7 @@
     font-family: allan;
     font-style: normal;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #DA0E15;
 }
 .middle-box {
     text-align: center;
@@ -57,4 +57,20 @@
 
 .lead {
     color: #FFFFFF;
+}
+.MissionBox {
+	background-image: url(../Images/buildingsround.jpg);
+	width: 800px;
+	height: 400px;
+	float: right;
+	background-size: 800px 400px;
+	clear: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Mission-msg{
+	Font-family: allan;
+	font-style: normal;
+	
 }
