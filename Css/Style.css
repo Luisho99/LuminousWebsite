@@ -1,64 +1,45 @@
+.Front-Carroussel {
+	max-width: 100pc;
+	max-height: 100pc;
+}
+.row .col-lg-4.col-md-12.col-sm-12 {
+}
+.Carrousel-btn {
+    bottom: 1000px;
+    text-align: center;
+    align-content: center;
+    margin-left: 90px;
+	background-color: #DA0E15;
+    
+}
+.Mission-header {
+    text-align: center;
+    font-family: allan;
+    font-style: normal;
+    font-weight: 700;
+    color: #DA0E15;
+}
+.middle-box {
+    text-align: center;
+    font-family: allan;
+    font-style: normal;
+    font-weight: 700;
+	color: #DA0E15;	
+	background-color: #E1DFDF;
+
+}
+
+.bag {
+	background-color: #E1DFDF;
+	
+} 
+
 .fontco {
     color: #DA0E15;	
 }
 
-.center {
-	
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-	background-color: #E1DFDF;
-}
-
-.box {
-	text-align: center;
-	float:center;
-	margin: 6px;
-	
-}
 
 
-.info {
-    float: left;
-	text-align: ;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-.size {
-    font-family: allan;
-    font-style: normal;
-    font-weight: 700;
-    font-size: xx-large;
-    color: #DA0E15;
-    text-align: center;
-	margin: 40px;
-	
-
-}
-
-.sizebag {
-	float: center;
-  
-}
-
-.chard {
-	float:center;
-	 margin-left: 130px;
-}
-
-
-
-.Mission-header {
-    font-family: allan;
-    font-style: normal;
-    font-weight: 700;
-    color: #DA0E15;
-    text-align: center;
-}
 
 .centered {
   position: absolute;
@@ -68,33 +49,21 @@
 }
 
 .lead {
-    text-align: center;
     color: #FFFFFF;
 }
-
-.middle-box{
-    font-family: allan;
-    font-style: normal;
-    font-weight: 700;
-    color: #FFFFFF;
-    text-align: center;
+.MissionBox {
+	background-image: url(../Images/buildingsround.jpg);
+	width: 800px;
+	height: 400px;
+	float: right;
+	background-size: 800px 400px;
+	clear: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-.Carrousel-btn {
-    bottom: 1000px;
-    text-align: center;
-    align-content: center;
-    margin-left: 90px;
-	background-color: #DA0E15;
+.Mission-msg{
+	Font-family: allan;
+	font-style: normal;
+	
 }
-
-.imgbuild {
-    margin-left: 100px;
-}
-
-.bag {
-    background-image: url("../Images/graffiti.jpg");
-    background-position: 0% 0%;
-    background-size: contain;
-}
-
