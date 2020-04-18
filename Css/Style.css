@@ -2,8 +2,7 @@
 	max-width: 100pc;
 	max-height: 100pc;
 }
-.row .col-lg-4.col-md-12.col-sm-12 {
-}
+
 .Carrousel-btn {
     bottom: 1000px;
     text-align: center;
@@ -24,14 +23,14 @@
     font-family: allan;
     font-style: normal;
     font-weight: 700;
-	color: #DA0E15;	
-	background-color: #E1DFDF;
-
+    color: #DA0E15;
+    background-color: #E1DFDF;
+    background-size: contain;
 }
 
 .bag {
-	background-color: #E1DFDF;
-	
+    background-image: url(../Images/graffiti.jpg);
+    background-size: contain;
 } 
 
 .fontco {
@@ -50,10 +49,13 @@
 
 .lead {
     color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
 }
 .MissionBox {
 	background-image: url(../Images/buildingsround.jpg);
-	width: 800px;
+	width: 100%;
 	height: 400px;
 	float: right;
 	background-size: 800px 400px;
