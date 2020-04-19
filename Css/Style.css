@@ -72,7 +72,8 @@
 
 
 body {
-    background-image: url(/Images/light.jpg)
+	background-image: url(../Images/light.jpg);
+	width: 100%;	
 }
 
 
@@ -188,5 +189,133 @@ input {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*-------Contact-Page--------*/
+
+.bottom_Contact {
+	
+	border: 0px solid ;
+    background-color: #E1DFDF ;
+	font-family: allan; 
+	
+}
+
+
+.upper_Contact {
+	
+	border: 0px solid ;
+	background-color: #E1DFDF ; 
+
+	
+}
+
+.email {
+	
+	border: 0px solid ;
+	color: #212020 ;
+}
+
+.phone {
+	
+	border: 0px solid ;
+	color: #212020 ;
+	
+}
+
+.Insta {
+	
+	border: 0px solid ; 
+	color: #212020 ;
+}
+
+
+.Twitter {
+	
+	border: 0px solid ;
+	color: #212020 ;
+	
+	
+}
+
+.fontco {
+	
+	color: #DA0E15;
+}
+
+.email a:link {
+	
+	color: #212020;
+
+}
+
+.Insta a:link {
+	
+	color: #212020;
+
+}
+
+.Twitter a:link {
+	
+	color: #212020;
+	
+}
+.Contact_Form_Icon {
+	
+	color: #212020;
+}
+
+.Contact_Form_Text {
+	
+	color: #212020;
+}
+
+.Insta_Link {
+	
+	color: #212020;
+}
+
+.Insta_Logo {
+	
+	color: #212020;
+}
+
+.Twitter_Text {
+	
+	color: #212020;
+	
+}
+
+.Twitter_Logo {
+	
+	color: #212020;
+}
+
+
+.Container_Form {
+	
+	height: 800px;
+	width: 1200px;
+}
+
+.Col_Form {
+	
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 0px;
+		
+}
+
+.fa-8x {
+	
+	 font-family: 'FontAwesome';
+  src: url('your/path/fontawesome-webfont.eot?v=3.0.1');
+  src: url('your/path/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('your/path/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('your/path/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100px;
+}
+
 
 
