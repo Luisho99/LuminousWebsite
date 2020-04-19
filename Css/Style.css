@@ -74,3 +74,105 @@
 body {
     background-image: url(/Images/light.jpg)
 }
+
+
+/*------Product page-----*/
+
+.single-product {
+	margin-top: 70px;
+	
+}
+
+.new-arrival {
+	
+	background: #DA0E15;
+	width:50px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	
+	
+}
+
+.col-md-7 h2 {
+    color: #DA0E15;
+	font-family: allan;
+	
+}
+
+
+ .price {
+	color: #DA0E15;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 20px;
+	
+}
+
+input {
+	
+	border:1px solid;
+	font-weight: bold;
+	height:33px;
+	width: 30px;
+	text-align: center;
+	
+}
+
+.single-product .btn-primary{
+    background: #DA0E15;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.product-description h5 {
+	
+	margin-top: 50px;
+	color: #DA0E15;
+}
+
+.product-description p {
+	
+	margin-top: 30px;
+	
+}
+	
+.sizechoi{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+	
+
+
+.carousel-item {
+
+	width: 100%;
+    
+}
+
+.sizecalculator {
+    float: right;
+   display: inline-block;
+	margin-bottom: 30px;
+}
+
+.sizecal{
+    color: #DA0E15;
+    font-family: allan;
+    font-size: xx-large;
+	text-align: center;
+}
+
+.material{
+    position: relative;
+    bottom: 25px;
+}
+
+
