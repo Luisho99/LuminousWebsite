@@ -72,14 +72,8 @@
 
 
 body {
-<<<<<<< HEAD
-    background-image: url(/Images/light.jpg);
-	width: 100%;
-	
-=======
-	background-image: 
-	 url(../Images/light.jpg);
->>>>>>> 67f9360dcc5a57c3e8ebc80ba89a1d1465c03e44
+	background-image: url(../Images/light.jpg);
+	width: 100%;	
 }
 
 
