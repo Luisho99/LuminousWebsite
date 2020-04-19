@@ -317,5 +317,124 @@ input {
   font-size: 100px;
 }
 
+/*--------AboutUs--------*/
+
+containeraboutus {
+    width: 500px;
+    max-width: 500px;
+}
+
+
+.colourteam {
+    background-color: #E1DFDF;
+    margin-bottom: 55px;
+    margin-top: 16px;	
+}
+
+.jumbotronaboutus {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #E1DFDF;
+}
+
+
+
+
+
+
+.aboutusvalues {
+	background-color: #E1DFDF;
+	text-align: center;
+	
+	
+	
+}
+
+
+
+
+
+
+		
+
+
+.readertext  {
+font-size:	36px; 
+	color: #555;
+	font-weight: bold;
+	
+	
+	
+}
+
+.aboutusvaluestext {
+	
+	fontsize: 24px;
+	color: #333;
+	font-weight: bold;
+}
+
+#team img {
+margin-top: -50px;
+
+}
+
+#team i{
+	
+	font-size:26px;
+	color: #555;
+	
+}
+
+
+#team p{
+	font-weight: 500;
+
+} 
+
+
+#team .card{
+	border-radius: 0;
+	box-shadow: 5px 5px 15px #e74c3c;
+	transition: all 0.3s ease-in;
+	webkit-tranistion: all 0.3s ease-in;
+	moz-transition: all 0.3 ease-in;
+	
+	
+	
+}
+
+#team .card:hover{
+	background: #e74c3c;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 5px 10px #9E9E9E;
+	
+	
+	
+}
+
+#TEAM .card:hover .readertext, #team  .card:hover i{
+	color: #FFF; 
+	
+	
+	
+	
+}
+
+
+
+
+
+.aboutusvalues {
+    background-color: #E1DFDF;
+    margin-top: 60px;
+    margin-right: 84px;
+	margin-left: 84px;
+
+}
+
+
 
 
