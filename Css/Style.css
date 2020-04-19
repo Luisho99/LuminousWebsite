@@ -72,7 +72,8 @@
 
 
 body {
-    background-image: url(/Images/light.jpg)
+	background-image: 
+	 url(../Images/light.jpg);
 }
 
 
