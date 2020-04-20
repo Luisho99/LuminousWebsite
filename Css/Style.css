@@ -176,7 +176,7 @@ input {
     bottom: 25px;
 }
 
-/*--------Design-choice------*/
+/*--------Design-choice---------------------------------------*/
 
 .design-paragraph{
 	background-color: lightgray;
@@ -184,13 +184,13 @@ input {
 }
 
 .centered {
-  position: absolute;
+  position:;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/*-------Contact-Page--------*/
+/*-------Contact-Page----------------------------------------------*/
 
 .bottom_Contact {
 	
