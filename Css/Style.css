@@ -48,7 +48,7 @@
 }
 
 .lead {
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
     text-decoration: none;
     font-size: xx-large;
@@ -353,11 +353,16 @@ containeraboutus {
 
 .readertext  {
 font-size:	36px; 
-	color: #555;
+	color: #000000;
 	font-weight: bold;
 	
 	
 	
+}
+
+.lead
+{
+	 color
 }
 
 .aboutusvaluestext {
