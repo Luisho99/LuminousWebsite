@@ -515,3 +515,13 @@ footer .action {
 footer .col-sm-4 {
 	text-align: center;
 }
+/*--------------------Shop----------------*/
+
+.storeBG{
+	width: 1545px;
+	height: auto;
+		
+}
+.storeunnacitve {
+	Background-color: grey;
+}
