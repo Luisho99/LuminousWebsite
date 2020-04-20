@@ -436,6 +436,13 @@ margin-top: -50px;
 }
 
 /*---------------NAVBAR-------------*/
+header
+{
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	
+}
 
 .navbar
 {
@@ -495,6 +502,5 @@ margin-top: -50px;
 {
 	background: #f8f9fa;
 }
-
 
 
