@@ -67,7 +67,27 @@
 .Mission-msg{
 	Font-family: allan;
 	font-style: normal;
+	color: #FFF;
 	
+}
+
+.proddes {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+lable {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+li {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+	
+font-family: 'Josefin Sans', sans-serif;
+
 }
 
 
@@ -81,6 +101,7 @@ body {
 
 .single-product {
 	margin-top: 70px;
+	padding-top: 20px;
 	
 }
 
@@ -111,6 +132,15 @@ body {
 	
 }
 
+.instock {
+	color: #DA0E15;
+}
+
+
+.avail {
+	color: #363636;
+}
+
 input {
 	
 	border:1px solid;
@@ -128,17 +158,21 @@ input {
     margin-left: 20px;
     border: none;
     border-radius: 5px;
+	
 }
 
 .product-description h5 {
-	
-	margin-top: 50px;
-	color: #DA0E15;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #DA0E15;
+    font-size: x-large;
+	font-family: allan;
 }
 
 .product-description p {
 	
 	margin-top: 30px;
+	margin-left: 50px;
 	
 }
 	
@@ -154,40 +188,64 @@ input {
 
 .carousel-item {
 
-	width: 100%;
+   width:100%;
     
 }
 
 .sizecalculator {
-    float: right;
-   display: inline-block;
-	margin-bottom: 30px;
+	margin-left: 50px;
+	background-color: #959393;
+	padding-top: 20px;
+	padding-bottom: 20px;
+		
+	
 }
+ 
 
 .sizecal{
     color: #DA0E15;
     font-family: allan;
     font-size: xx-large;
 	text-align: center;
+	
+	
+
+	
+}
+
+
+.img-unisex {
+	float: right;
+
 }
 
 .material{
     position: relative;
     bottom: 25px;
+	
 }
+
+.background-product {
+	background-color: #E1DFDF;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
 
 /*--------Design-choice---------------------------------------*/
 
 .design-paragraph{
 	background-color: lightgray;
-	
+
 }
 
-.centered     ..,.,. {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.design {
+    position: relative;
+   
 }
+
+
 
 /*-------Contact-Page----------------------------------------------*/
 
@@ -516,6 +574,13 @@ footer .action {
 
 footer .col-sm-4 {
 	text-align: center;
+	
+	
+}
+
+
+.copy {
+	float: right;
 }
 /*--------------------Shop----------------*/
 
