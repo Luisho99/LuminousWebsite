@@ -434,6 +434,72 @@ margin-top: -50px;
 
 }
 
+/*---------------NAVBAR-------------*/
+header
+{
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	
+}
 
+.navbar
+{
+	padding: 20px 0;
+}
+
+.navbar-brand
+{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #262626;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 10px;
+	
+}
+
+.navbar-brand img
+{
+	width: 140px;
+}
+
+.nav-item
+{
+	font-weight: 800;
+	text-transform: uppercase;
+	
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover, 
+
+.navbar-light .navbar-nav .nav-item.active .nav-link 
+{
+	background: #262626;
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link
+{
+    color: #262626;
+    padding: 5px 15px;
+    margin-left: 23px;
+    margin-right: 48px;
+}
+
+.navbar-light .navbar-toggler
+{
+	border: none;
+	color: #fff;
+	border: 2px solid #7f7f77;
+	border-radius: 0;
+	outline: none; 
+}
+
+.navbar-collapse .navbar .navbar-expand-lg .navbar-light .bg-light
+{
+	background: #f8f9fa;
+}
 
 
