@@ -163,7 +163,7 @@ input {
 
 .product-description h5 {
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 5px;
     color: #DA0E15;
     font-size: x-large;
 	font-family: allan;
@@ -172,7 +172,7 @@ input {
 .product-description p {
 	
 	margin-top: 30px;
-	margin-left: 50px;
+	margin-left: 5px;
 	
 }
 	
@@ -193,10 +193,12 @@ input {
 }
 
 .sizecalculator {
-	margin-left: 50px;
+	
 	background-color: #959393;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	max-width: 100%;
+	max-height: 100%;
 		
 	
 }
@@ -208,14 +210,19 @@ input {
     font-size: xx-large;
 	text-align: center;
 	
-	
 
 	
 }
 
 
+
 .img-unisex {
-	float: right;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
 
 }
 
