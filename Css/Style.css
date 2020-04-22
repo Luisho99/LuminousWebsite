@@ -116,6 +116,16 @@ body {
 	
 	
 }
+.backtocart-btn {
+	margin-left: 0px;
+	background-color: #DA0E15;
+}
+.Purchase-btn {
+	margin-left: 1041px;
+	background-color: #DA0E15;
+}
+
+
 
 .col-md-7 h2 {
     color: #DA0E15;
@@ -685,5 +695,16 @@ body {
 }
 .CartImg {
 	border: thin solid #000000;
-	
+}
+/*-----------Checkout-------*/
 
+
+
+.Checkout-title {
+	font-family: Allan;
+	color: #DA0E15;
+	padding-top: 20px;
+}
+.formtext {
+	font-family: 'Josefin Sans', sans-serif;
+}
