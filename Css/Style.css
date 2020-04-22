@@ -266,7 +266,7 @@ input {
 .bottom_Contact {
 	
 	border: 0px solid ;
-    font-family: allan; 
+	font-family: allan; 
 	
 }
 
@@ -274,8 +274,6 @@ input {
 .upper_Contact {
 	
 	border: 0px solid ;
-	 
-
 	
 }
 
@@ -303,6 +301,7 @@ input {
 	
 	border: 0px solid ;
 	color: #212020 ;
+	
 	
 	
 }
@@ -378,8 +377,11 @@ input {
 	margin-left: 80px;
 	margin-right: 80px;
 	margin-top: 0px;
-		
+	
+	}.Font_CP {
+	font-family: allan;
 }
+		
 
 .fa-8x {
 	
@@ -609,6 +611,42 @@ footer .action {
 	Background-color: grey;
 }
 
+/*------- ThankYou ------*/
+
+.container_ThankYou {
+	
+	font-weight: 800;
+	width: 650px;
+	margin-top: 72px;
+	margin-bottom: 40px;
+
+}
+
+.Text_ThankYou {
+	
+	font-size: 70px;
+	font-family: allan; 
+}
+
+.Text_Purchase {
+	
+	font-size: 25px; 
+}
+
+.col5_Icon {
+	
+	text-align: center;
+}
+
+.col4_Text {
+	
+	text-align: left;
+}
+
+.col2_Icon {
+	
+	text-align: center;
+}
 /*----------------- Cart ------------------*/
 
 .Continuebtn {
@@ -645,4 +683,5 @@ body {
 }
 .CartImg {
 	border: thin solid #000000;
-}
+	
+
