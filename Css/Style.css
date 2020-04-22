@@ -294,6 +294,12 @@ input {
 	
 	height: 800px;
 	width: 1200px;
+	font-family: allan; 
+}
+
+.container_FormTitle {
+	
+	font-family: allan; 
 }
 
 .Col_Form {
