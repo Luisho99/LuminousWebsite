@@ -792,7 +792,11 @@ line-height: 40px;
 	line-height: 75px;
 }
 
-@media only screen and (min-width: 768px) and (max-width:991px) {
+fa fa-facebook
+
+
+@media only screen and (min-width: 768px) and (max-width:991px) 
+{
 	.md-mb-30 {
 		margin-bottom:30px;
 	}
