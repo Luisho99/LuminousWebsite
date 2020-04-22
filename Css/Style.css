@@ -449,6 +449,8 @@ containeraboutus {
 .aboutusvalues {
 	background-color: #E1DFDF;
 	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+
 	
 	
 	
@@ -460,6 +462,8 @@ containeraboutus {
 font-size:	36px; 
 	color: #000000;
 	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+
 	
 	
 	
@@ -472,6 +476,8 @@ font-size:	36px;
 	fontsize: 24px;
 	color: #333;
 	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+
 }
 
 #team img {
@@ -483,12 +489,16 @@ margin-top: -50px;
 	
 	font-size:26px;
 	color: #555;
+	font-family: 'Josefin Sans', sans-serif;
+
 	
 }
 
 
 #team p{
 	font-weight: 500;
+	font-family: 'Josefin Sans', sans-serif;
+
 
 } 
 
@@ -603,29 +613,6 @@ header
 	background: #f8f9fa;
 }
 
-
-/*-------------footer-------------------------*/
-
-footer {
-	width:100%;
-	background-color: #9F9F9F;
-	padding: 40px 0px;
-	
-
-}
-
-footer .action {
-	float: right;
-	text-align: inline;
-
-}
-
-
-
-.copy {
-	float: left;
-	padding-left: 30px;
-}
 /*--------------------Shop----------------*/
 
 .storeBG{
@@ -725,5 +712,114 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 .Thankyoubtn {
-	background-color: #DA0E15;
+}
+
+/*----FOOTER-----*/
+
+.pfooter {
+	color: #999;
+	line-height: 25px;
+}
+
+.h2footer, .h3footer {
+	color: #fff;
+}
+
+.h2footer {
+	font-size: 18px;
+}
+
+.footer-top {
+	background: #111;
+	padding: 20px 0;
+}
+
+.segment-one .h3footer {
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+	
+}
+
+.segment-two h2 .h2footer {
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+
+.segment-two .h2footer:before {
+	content: '|';
+	color: #c65039;
+	padding-right: 10px;
+	
+}
+
+.segment-two ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.segment-two ul li {
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+line-height: 40px; 
+}
+
+.segment-two ul li a {
+	color: #999;
+	text-decoration: none;
+}
+
+.segment-three h2 {
+	color: #fff;
+    text-transform: uppercase;
+	
+}
+
+.segment-three .h2footer:before {
+	content: '|';
+	color: #c65039;
+	padding-right: 10px;
+	
+}
+
+.segment-three a {
+	background: #494848;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;
+
+}
+
+.segment-three a i {
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 12px;
+}
+
+.footer-bottom-text{
+	text-align: center;
+	background: #000;
+	line-height: 75px;
+}
+
+fa fa-facebook
+
+
+@media only screen and (min-width: 768px) and (max-width:991px) 
+{
+	.md-mb-30 {
+		margin-bottom:30px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.sm-mb-30 {
+		margin-bottom: 30px;
+	}
+	.footer-top{
+		padding:50px 0;
+	}
 }
