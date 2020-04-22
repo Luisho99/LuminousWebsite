@@ -116,6 +116,16 @@ body {
 	
 	
 }
+.backtocart-btn {
+	margin-left: 0px;
+	background-color: #DA0E15;
+}
+.Purchase-btn {
+	margin-left: 1041px;
+	background-color: #DA0E15;
+}
+
+
 
 .col-md-7 h2 {
     color: #DA0E15;
@@ -654,10 +664,12 @@ footer .action {
 .Continuebtn {
 	float: right;
 	margin-right: 139px;
+	background-color: #DA0E15;
 
 }
 .backtostorebtn {
 	margin-left: 107px;
+	background-color: #DA0E15;
 }
 .your-bskt {
 	margin-left: 55px;
@@ -685,5 +697,18 @@ body {
 }
 .CartImg {
 	border: thin solid #000000;
-	
+}
+/*-----------Checkout-------*/
 
+
+
+.Checkout-title {
+	font-family: allan;
+	color: #DA0E15;
+	padding-top: 20px;
+}
+.formtext {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.Thankyoubtn {
+}
