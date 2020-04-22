@@ -67,7 +67,27 @@
 .Mission-msg{
 	Font-family: allan;
 	font-style: normal;
+	color: #FFF;
 	
+}
+
+.proddes {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+lable {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+li {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+	
+font-family: 'Josefin Sans', sans-serif;
+
 }
 
 
@@ -81,6 +101,7 @@ body {
 
 .single-product {
 	margin-top: 70px;
+	padding-top: 20px;
 	
 }
 
@@ -111,6 +132,15 @@ body {
 	
 }
 
+.instock {
+	color: #DA0E15;
+}
+
+
+.avail {
+	color: #363636;
+}
+
 input {
 	
 	border:1px solid;
@@ -128,17 +158,21 @@ input {
     margin-left: 20px;
     border: none;
     border-radius: 5px;
+	
 }
 
 .product-description h5 {
-	
-	margin-top: 50px;
-	color: #DA0E15;
+    margin-top: 50px;
+    margin-left: 5px;
+    color: #DA0E15;
+    font-size: x-large;
+	font-family: allan;
 }
 
 .product-description p {
 	
 	margin-top: 30px;
+	margin-left: 5px;
 	
 }
 	
@@ -154,40 +188,78 @@ input {
 
 .carousel-item {
 
-	width: 100%;
+   width:100%;
     
 }
 
 .sizecalculator {
-    float: right;
-   display: inline-block;
-	margin-bottom: 30px;
+	
+	background-color: #959393;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 100%;
+	max-height: 100%;
+		
+	
 }
+ 
 
 .sizecal{
     color: #DA0E15;
     font-family: allan;
     font-size: xx-large;
 	text-align: center;
+	
+
+	
+}
+
+
+
+.img-unisex {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
+
 }
 
 .material{
     position: relative;
     bottom: 25px;
+	
 }
+
+.background-product {
+	background-color: #E1DFDF;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
 
 /*--------Design-choice---------------------------------------*/
 
 .design-paragraph{
-	background-color: lightgray;
-	
+	padding-left: 5px;
+
 }
 
-.centered     ..,.,. {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.design {
+    position: relative;
+	background-color: #E1DFDF;
+   
 }
+
+.design-header {
+    font-family: allan;
+    color: #DA0E15;
+    padding-top: 20px;
+    text-align: center;
+}
+
 
 /*-------Contact-Page----------------------------------------------*/
 
@@ -510,7 +582,8 @@ header
 footer {
 	width:100%;
 	background-color: #9F9F9F;
-	padding: 30px 0px;
+	padding: 40px 0px;
+	
 
 }
 
@@ -520,8 +593,11 @@ footer .action {
 
 }
 
-footer .col-sm-4 {
-	text-align: center;
+
+
+.copy {
+	float: left;
+	padding-left: 30px;
 }
 /*--------------------Shop----------------*/
 
@@ -532,4 +608,42 @@ footer .col-sm-4 {
 }
 .storeunnacitve {
 	Background-color: grey;
+}
+
+/*----------------- Cart ------------------*/
+
+.Continuebtn {
+	float: right;
+	margin-right: 139px;
+
+}
+.backtostorebtn {
+	margin-left: 107px;
+}
+.your-bskt {
+	margin-left: 55px;
+}
+
+.stock-msg {
+	color: #000000;
+}
+
+body {
+	background-color: #828282
+}
+.basket-cont{
+	border: thin none #000000;
+}
+.total {
+	text-align: right;
+}
+
+.blankctn {
+	border: thin none #000000;
+}
+.CartItems {
+	border: thin solid #000000;
+}
+.CartImg {
+	border: thin solid #000000;
 }
