@@ -417,6 +417,11 @@ input {
 	color: #212020;
 }
 
+.contact-header{
+	color: #DA0E15;
+}
+
+
 .Contact_Form_Text {
 	
 	color: #212020;
@@ -831,7 +836,8 @@ header
 .Text_ThankYou {
 	
 	font-size: 70px;
-	font-family: allan; 
+	font-family: allan;
+	color: #DA0E15;
 }
 
 .Text_Purchase {
