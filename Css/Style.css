@@ -348,6 +348,14 @@ input {
 
 
 /*-------Contact-Page----------------------------------------------*/
+.my-container_ContactPage {
+	
+	    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 .bottom_Contact {
 	
@@ -850,7 +858,14 @@ header
 }
 
 /*--------------------Shop----------------*/
-
+.shop-container {
+	
+	    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 .storeBG{
 	width: 1545px;
 	height: auto;
