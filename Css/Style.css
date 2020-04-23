@@ -1,5 +1,3 @@
-
-
 /*-------Home-page------*/
 
 .Front-Carroussel {
@@ -975,6 +973,16 @@ line-height: 40px;
 }
 .shopmenuitems {
 }
+.imgBx {
+	margin-left: 0px;
+}
+.valueboxes {
+display:flex;
+justify-content: center
+}
+
+
+
 
 
 
