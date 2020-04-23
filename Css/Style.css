@@ -850,7 +850,11 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 .Thankyoubtn {
+	background-color: #DA0E15;
 }
+.col.col6_Button center .btn.btn-primary.btn-lg.thankyoubtn {
+}
+
 
 /*----FOOTER-----*/
 
@@ -977,9 +981,13 @@ line-height: 40px;
 	margin-left: 0px;
 }
 .valueboxes {
-display:flex;
-justify-content: center
+	display: flex;
+	justify-content: center;
+	margin-left: 0px;
 }
+.thankyoubtn {
+}
+
 
 
 
