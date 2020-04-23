@@ -474,7 +474,11 @@ input {
 	}.Font_CP {
 	font-family: allan;
 }
-		
+
+.contact-header {
+	
+	text-align: center;
+}
 
 .fa-8x {
 	
@@ -492,6 +496,7 @@ input {
 	
 	background-color: #da0e15;
 }
+
 
 /*--------AboutUs--------*/
 
