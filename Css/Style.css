@@ -335,9 +335,13 @@ input {
 .example{
 	font-family: allan;
 	color: #DA0E15;
-	text-align: left;
+	text-align: center;
 }
 
+.designcenter {
+	
+	text-align: center;
+}
 
 
 
