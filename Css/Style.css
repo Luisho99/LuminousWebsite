@@ -479,6 +479,11 @@ input {
   font-size: 100px;
 }
 
+.btn-primary {
+	
+	background-color: #da0e15;
+}
+
 /*--------AboutUs--------*/
 
 containeraboutus {
