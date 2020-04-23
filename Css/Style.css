@@ -298,6 +298,52 @@ input {
 	text-align: center;
 }
 
+.wireframe{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
+}
+
+.wireframe-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.colorcodes-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.colorcode {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+.fonts-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.example{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: left;
+}
+
+
+
+
+
+
 /*-------Contact-Page----------------------------------------------*/
 
 .bottom_Contact {
