@@ -455,8 +455,7 @@ input {
 
 .Container_Form {
 	
-	height: 800px;
-	width: 1200px;
+	
 	font-family: allan; 
 }
 
@@ -496,6 +495,8 @@ input {
 	
 	background-color: #da0e15;
 }
+
+
 
 
 /*--------AboutUs--------*/
