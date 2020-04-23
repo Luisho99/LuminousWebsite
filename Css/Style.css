@@ -135,7 +135,6 @@ body {
 	background-color: #DA0E15;
 }
 .Purchase-btn {
-	margin-left: 1041px;
 	background-color: #DA0E15;
 }
 
@@ -1036,8 +1035,14 @@ line-height: 40px;
 	justify-content: center;
 	margin-left: 0px;
 }
-.thankyoubtn {
+
+.purchase-btn-container {
+	display: flex;
+	justify-content: flex-end;
 }
+
+
+
 
 
 
