@@ -455,11 +455,11 @@ containeraboutus {
 }
 
 .btnab{
-	background-color: black;
+	background-color: red;
 }
 
 .btnab:hover {
-	background-color: grey;
+	background-color: indianred;
 	font-color: black;
 }
 
@@ -529,6 +529,34 @@ containeraboutus {
 	height: 100%;
 	object-fit: cover;
 }
+
+.dearreader {
+	font-family: allan;
+}
+
+.valuetext {
+	padding-top: 40px;
+	font-family: allan;
+	font-size: 100px;
+	color: #DA0E15;
+}
+
+.ourteamheader {
+	padding-top: 40px;
+	font-family: allan;
+	font-size: 100px;
+	color: #DA0E15;
+}
+
+.meetourteam {
+	font-size: 25px;
+}
+
+.namesab {
+	font-family: allan;
+	color: #black;
+}
+
 .container .box .content
 {
 	position: absolute;
