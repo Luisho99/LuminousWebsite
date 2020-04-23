@@ -4,10 +4,10 @@
 }
 
 .Carrousel-btn {
-    bottom: 1000px;
-    text-align: center;
-    align-content: center;
-    margin-left: 90px;
+	bottom: 1000px;
+	text-align: center;
+	align-content: center;
+	margin-left: 65px;
 	background-color: #DA0E15;
     
 }
@@ -23,8 +23,7 @@
 }
 
 .bag {
-    background-image: url(../Images/graffiti.jpg);
-    background-size: contain;
+	background-size: contain;
 } 
 
 .fontco {
@@ -805,6 +804,39 @@ line-height: 40px;
 	background: #000;
 	line-height: 75px;
 }
+.midbox-img {
+	width: 100%;
+}
+.centerbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.Middle-img {
+	height: 100%;
+	width: 100%;
+}
+.Shopmenutitle {
+	font-family: allan;
+	color: #DA0E15;
+}
+.soldout-text {
+	background: #DA0E15;
+	width: 50px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+.shopmenuitems {
+}
+
+
+
+
 
 fa fa-facebook
 
