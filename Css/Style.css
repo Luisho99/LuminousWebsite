@@ -9,20 +9,27 @@
 	bottom: 1000px;
 	text-align: center;
 	background-color: #DA0E15;
-	display: flex;
-    align-items: center;
-    justify-content: center;
+	
     
 }
 
 .middle-box {
-    text-align: center;
+   
     font-family: allan;
     font-style: normal;
-    color:#DA0E15;
+    color: #DA0E15;
     background-color: #E1DFDF;
     background-size: contain;
-	font-size:4vw;
+    font-size: 28px;
+	
+}
+
+.centerbox{
+	font-size:3vw;
+	text-align: center;
+	
+    
+    
 }
 
 .bag {
@@ -227,8 +234,6 @@ input {
     font-size: xx-large;
 	text-align: center;
 	
-
-	
 }
 
 
@@ -292,6 +297,52 @@ input {
 	color: #DA0E15;
 	text-align: center;
 }
+
+.wireframe{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
+}
+
+.wireframe-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.colorcodes-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.colorcode {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+.fonts-header{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
+
+.example{
+	font-family: allan;
+	color: #DA0E15;
+	text-align: left;
+}
+
+
+
+
+
 
 /*-------Contact-Page----------------------------------------------*/
 
@@ -855,7 +906,11 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 .Thankyoubtn {
+	background-color: #DA0E15;
 }
+.col.col6_Button center .btn.btn-primary.btn-lg.thankyoubtn {
+}
+
 
 /*----FOOTER-----*/
 
@@ -982,9 +1037,13 @@ line-height: 40px;
 	margin-left: 0px;
 }
 .valueboxes {
-display:flex;
-justify-content: center
+	display: flex;
+	justify-content: center;
+	margin-left: 0px;
 }
+.thankyoubtn {
+}
+
 
 
 
