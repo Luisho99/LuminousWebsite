@@ -439,7 +439,7 @@ containeraboutus {
 
 
 .colourteam {
-    background-color: #E1DFDF;
+    background-color: transparent;
     margin-bottom: 55px;
     margin-top: 16px;	
 }
@@ -480,8 +480,8 @@ containeraboutus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: consolas;
 }
+
 .container .valuesfromus
 {
 	position: relative;
@@ -976,12 +976,7 @@ line-height: 40px;
 
 
 
-
-
-fa fa-facebook
-
-
-@media only screen and (min-width: 768px) and (max-width:991px) 
+ @media only screen and (min-width: 768px) and (max-width:991px) 
 {
 	.md-mb-30 {
 		margin-bottom:30px;
