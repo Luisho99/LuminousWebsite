@@ -1,23 +1,21 @@
+
+
+/*-------Home-page------*/
+
 .Front-Carroussel {
 	max-width: 100pc;
 	max-height: 100pc;
 }
 
 .Carrousel-btn {
-    bottom: 1000px;
-    text-align: center;
-    align-content: center;
-    margin-left: 90px;
+	bottom: 1000px;
+	text-align: center;
+	align-content: center;
+	margin-left: 65px;
 	background-color: #DA0E15;
     
 }
-.Mission-header {
-    text-align: center;
-    font-family: allan;
-    font-style: normal;
-    font-weight: 700;
-    color: #DA0E15;
-}
+
 .middle-box {
     text-align: center;
     font-family: allan;
@@ -29,8 +27,7 @@
 }
 
 .bag {
-    background-image: url(../Images/graffiti.jpg);
-    background-size: contain;
+	background-size: contain;
 } 
 
 .fontco {
@@ -40,36 +37,47 @@
 
 
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-.lead {
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    font-size: xx-large;
-}
 .MissionBox {
-	background-image: url(../Images/buildingsround.jpg);
-	width: 100%;
-	height:400px;
-	float: right;
-	background-size: 800px;
+	
 	clear: none;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-.Mission-msg{
-	Font-family: allan;
-	font-style: normal;
-	color: #FFF;
+	position: relative;
 	
+   
+    
 }
+.mission-msg{
+	
+	Font-family: allan;
+    font-style: normal;
+    color: #FFF;
+    font-size: xx-large;
+    background-image: url(../Images/buildingsround.jpg);
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height:100vh;
+	text-align: center;
+}
+
+
+.Mission-header {
+    text-align: center;
+    font-family: allan;
+    font-style: normal;
+    font-weight: 700;
+    color: #DA0E15;
+}
+
+
+
+
 
 .proddes {
 	font-family: 'Josefin Sans', sans-serif;
@@ -270,6 +278,21 @@ input {
     text-align: center;
 }
 
+
+.taskflow{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  max-height: 100%;
+
+}
+
+.taskflow-header {
+	font-family: allan;
+	color: #DA0E15;
+	text-align: center;
+}
 
 /*-------Contact-Page----------------------------------------------*/
 
@@ -791,6 +814,39 @@ line-height: 40px;
 	background: #000;
 	line-height: 75px;
 }
+.midbox-img {
+	width: 100%;
+}
+.centerbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.Middle-img {
+	height: 100%;
+	width: 100%;
+}
+.Shopmenutitle {
+	font-family: allan;
+	color: #DA0E15;
+}
+.soldout-text {
+	background: #DA0E15;
+	width: 50px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+.shopmenuitems {
+}
+
+
+
+
 
 fa fa-facebook
 
